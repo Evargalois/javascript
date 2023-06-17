@@ -1,5 +1,5 @@
 const sheetId = '1g49DRJqMpe55UuRmcZiW9Qqooq_KDadYSFof-rx1PxM';
-const apiKey = 'AIzaSyAhLCPdZaQEROA-NsFrDkUI9bPmPCPbXZM';
+const apiKey = 'AIzaSyDjy-i2_0a90XbHZXgVoiqzr2NSDLI7dS4';
 
 // Récupérer les données de la feuille de calcul
 axios.get(`https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/ecole!A:A?key=${apiKey}`)
