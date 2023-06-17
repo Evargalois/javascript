@@ -2,7 +2,7 @@ const sheetId = '1g49DRJqMpe55UuRmcZiW9Qqooq_KDadYSFof-rx1PxM';
 const apiKey = 'AIzaSyAhLCPdZaQEROA-NsFrDkUI9bPmPCPbXZM';
 
 // Récupérer les données de la feuille de calcul
-axios.get(`https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/Sheet1!A:A?key=${apiKey}`)
+axios.get(`https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/ecole!A:A?key=${apiKey}`)
   .then(response => {
     const wordList = response.data.values;
 
